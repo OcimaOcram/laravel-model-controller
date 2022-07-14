@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'PageController@index')->name('page');
-Route::get('/movies', 'PageController@movies')->name('movies');
+Route::get('/movies', 'PageController@movie')->name('movies');
